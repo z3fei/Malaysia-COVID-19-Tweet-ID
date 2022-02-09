@@ -1,0 +1,23 @@
+Title: Text to Image Deep Learning Approach: A multilingual dataset for Sentiment Analysis Task
+
+Manually annotated sentiment dataset for the above research paper.
+
+Datasets	                            |  Number of Tweets	| Text to Image-CNN	| M-BERT
+3 class [negative, positive, neutral]	      11,778                     60.08%	| 64.63%
+2 class [negative, (positive+neutral)]	    11,778                     65.31%	| 71.58%
+2 class [negative, positive]	               8,956                     65.10%	| 72.65%
+
+Dataset Release Constraint
+==========================
+The dataset is available on GitHub and is released in compliance with the Twitter's Terms and Conditions, 
+under which we are unable to publicly release the text of the collected tweets. We are, therefore, 
+releasing the Tweet IDs, which are unique identifiers tied to specific tweets. The Tweet IDs can be used 
+by researchers to query Twitter API and obtain the complete tweet object, including tweet content (text, 
+URLs, hashtags, etc) and authors’ metadata. The process to extract the full tweet object from Twitter 
+using a Tweet ID is referred to as hydration. There are several easy-to-use tools that have been 
+developed for such purposes, including the Hydrator and Twarc, but one could also directly use 
+Tweepy, a python library for connecting to Twitter API to extract the desired data.
+
+Hydrator - https://github.com/DocNow/hydrator#:~:text=Hydrator%20is%20an%20Electron%20based,tweet%20IDs%20to%20be%20shared.
+Twarc    - https://github.com/DocNow/twarc
+Tweepy   - https://github.com/tweepy/tweepy
