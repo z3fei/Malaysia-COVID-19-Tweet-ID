@@ -3,9 +3,8 @@ Title: Text to Image Deep Learning Approach: A multilingual dataset for Sentimen
 Manually annotated sentiment dataset for the above research paper.
 
 Datasets	                            |  Number of Tweets	| Text to Image-CNN	| M-BERT
-3 class [negative, positive, neutral]	      11,778                     60.08%	| 64.63%
-2 class [negative, (positive+neutral)]	    11,778                     65.31%	| 71.58%
-2 class [negative, positive]	               8,956                     65.10%	| 72.65%
+3 class [negative, positive, neutral]	      11,778                     58.67%	| 65.86%
+2 class [negative, (positive+neutral)]	    11,778                     64.44%	| 72.02%
 
 Dataset Release Constraint
 ==========================
