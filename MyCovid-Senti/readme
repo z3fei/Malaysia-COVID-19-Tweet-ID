@@ -2,9 +2,9 @@ Title: A Mixed Malay-English Language COVID-19 Twitter Dataset: A Sentiment Anal
 
 Manually annotated sentiment dataset for the above research paper.
 
-Datasets	                            |  Number of Tweets	
-3 class [negative, positive, neutral]	      11,568               
-2 class [negative, (positive+neutral)]	    11,568                   
+Datasets	                           
+3 class [negative, positive, neutral]	                   
+2 class [negative, (positive+neutral)]	                    
 
 Dataset Release Constraint
 ==========================
